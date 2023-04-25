@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div class="bg-red-500">
+      hello
+    </div>
+    <div class="text-3xl font-bold underline">
+      hello
+    </div>
+    <div class="text-3xl font-bold underline flex">
+      <div class="bg-red-200 pc:bg-blue-500 w-1/3">1</div>
+      <div class="bg-red-300 w-1/3 hover:opacity-20">2</div>
+      <div class="bg-red-400 w-1/3">3</div>
+    </div>
+    <ul role="list">
+      <li>1</li>
+      <li>2</li>
+      <li class="[&:nth-child(3)]:underline">3</li>
+    </ul>
+    <ul role="list" class="flex sm:flex-row md:flex-col">
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+    </ul>
+    <button class="btn-blue">abc</button>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
